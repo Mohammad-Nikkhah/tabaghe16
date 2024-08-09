@@ -17,16 +17,20 @@ function Hero() {
        <div className='flex justify-center relative my-20 '>
           <div className='max-w-[89vw] md:max-w-2x1 lg:max-w-[60vw]
            flex flex-col items-center justify-center
-          '>
-            <img src='main.jpeg'/>
-             <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Tabaghe 16 | Podcast</h2>
+          '>          
+            <div className='hero-box'>
+                <img src='/hero.png'></img>
+                <img className='pic-2' src='/hero-2.png'></img>
+                <img className='pic-3' src='/hero-3.png'></img>
+                <img className='pic-4' src='/hero-4.png'></img>
+                <img className='equalizer' src='/equalizer.png'></img>
+            </div>
+
+            
              <TextGenerateEffect
                className='text-center text-[100px] md:text-10xl lg:text-10xl'
                words='Available on YouTube, Apple, Spotify, Castbox, and all major streaming platforms.'
              />
-             <p className='text-center md:tracking-wider mb-5 text-sm md:text-lg lg:text-2xl'>
-                 Hosted by Soheil Alavi
-             </p>
              <a href='#'>
                  <MagicButton
                      title="All Episodes" 

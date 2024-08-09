@@ -87,3 +87,39 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+
+.hero-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  z-index: 99;
+  height: 40%;
+}
+
+.hero-box .pic-2 {
+  position: relative;
+  right: 45%;
+  z-index: -1;
+  bottom: 40px;
+}
+
+.hero-box .pic-3 {
+  position: relative;
+  left: 75%;
+  bottom: 85%;
+  z-index: -1;
+} 
+
+.hero-box .pic-4 {
+  position: relative;
+  left: -60%;
+  bottom: 35%;
+  z-index: -1;
+} 
+.hero-box  .equalizer {
+  position: relative;
+  bottom: 100%;
+  z-index: -1;
+  left: 40px;
+}

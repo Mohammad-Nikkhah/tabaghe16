@@ -98,6 +98,13 @@ export const companies = [
     img: "/twitter.png",
     link: "#",
     title:'Twitter'
+  },
+  {
+    id: 5,
+    name: "apple",
+    img: "/apple.png",
+    link: "#",
+    title:'Apple Podcasts '
   }
 ];
 

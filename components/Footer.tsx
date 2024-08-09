@@ -12,7 +12,7 @@ const Footer = () => {
          </div>
          <div className="flex flex-col items-center">
               <h1 className="heading lg:max-w-[45vw]">
-                Real Stories, Real Success: Learn from Tech  <span className="text-gray-700"> Innovators </span> 
+                Real Stories, Real Success: Learn from Tech  <span className="text-gray-500"> Innovators </span> 
               </h1> 
               <p className="text-white-200 text-center md:mt-10 my-5">
                    Discover the journeys of those who have turned their tech dreams into reality. Our podcast brings you firsthand experiences from industry leaders and startup founders who have navigated the challenges and triumphs of the tech world. Listen in and gain valuable insights to fuel your own success story.

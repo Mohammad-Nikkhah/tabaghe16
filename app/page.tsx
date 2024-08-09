@@ -1,6 +1,5 @@
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import PopularList from "@/components/PopularList";
 import RecentPod from "@/components/RecentPod";
@@ -17,7 +16,6 @@ export default function Home() {
       <div className="max-w-7xl w-full ">
          <FloatingNav navItems={navItems}/>
          <Hero/>
-         {/* <Grid/> */}
          <RecentPod/>
          <Clients/>
          <PopularList/>

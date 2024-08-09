@@ -10,14 +10,14 @@ const Clients = () => {
         <span className='text-gray-500'> Say </span>
     </h1>
     <div className='flex flex-col items-center justify-center'>
-        <div className='h-[50vh] md:[h-30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
+        <div className='h-[30vh] md:[h-30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
            <InfiniteMovingCards
              items={testimonials}
              direction='right'
              speed='slow'
            />
         </div>
-        <div className='flex flex-wrap justify-center items-center gap-4 md:gap-16'>
+        <div className='flex my-20 flex-wrap justify-center items-center gap-4 md:gap-16'>
           {companies.map(({id,img,name,link,title}) => (
             <a href={link} key={id} className='flex items-center md:max-w-60 max-w-32 gap-2'>
                  <img
