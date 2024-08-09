@@ -12,7 +12,7 @@ function RecentPod() {
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-8 mt-10">
         {projects.map(({ id, title, img, company, link }) => (
           <div
-            className="sm:h-[41rem] h-[20rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[29rem] h-[20rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={id}
           >
             <PinContainer title="Click" href={link}>
